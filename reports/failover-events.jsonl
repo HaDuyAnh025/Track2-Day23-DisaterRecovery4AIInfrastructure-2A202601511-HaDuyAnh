@@ -1,0 +1,45 @@
+{"ts": 1787633996.3565986, "iso": "2026-08-25T04:59:56", "step": "1_verify_target", "region": "b", "pool_state": "warm", "weights": false, "count": 0, "latest_doc_ts": null}
+{"ts": 1787633996.59484, "iso": "2026-08-25T04:59:56", "step": "2_restore_snapshot", "region": "b", "backend": "fs", "rpo_seconds": 12.0, "docs_lost": 6, "embed_model_version": "embed-model=vi-e5-base@v3"}
+{"ts": 1787633996.6036677, "iso": "2026-08-25T04:59:56", "step": "3_scale_pool", "region": "b", "pool_state": "full"}
+{"ts": 1787634003.4071882, "iso": "2026-08-25T05:00:03", "step": "4_wait_ready", "region": "b", "ready": true, "waited_s": 6.79}
+{"ts": 1787634003.416369, "iso": "2026-08-25T05:00:03", "step": "5_dns_cutover", "region": "b"}
+{"ts": 1787634352.1029544, "iso": "2026-08-25T05:05:52", "step": "1_verify_target", "region": "b", "pool_state": "warm"}
+{"ts": 1787634352.2210703, "iso": "2026-08-25T05:05:52", "step": "2_restore_snapshot", "region": "b", "backend": "fs", "rpo_seconds": 118.02, "docs_lost": 59, "embed_model_version": "test"}
+{"ts": 1787634352.261266, "iso": "2026-08-25T05:05:52", "step": "3_scale_pool", "region": "b", "pool_state": "full"}
+{"ts": 1787634353.277125, "iso": "2026-08-25T05:05:53", "step": "4_wait_ready", "region": "b", "ready": false, "waited_s": 1.0}
+{"ts": 1787634353.300041, "iso": "2026-08-25T05:05:53", "step": "abort", "region": "b", "reason": "target_not_ready_after_wait", "waited_s": 1.0}
+{"ts": 1787635057.4576693, "iso": "2026-08-25T05:17:37", "step": "1_verify_target", "region": "b", "pool_state": "warm"}
+{"ts": 1787635057.4614906, "iso": "2026-08-25T05:17:37", "step": "2_restore_snapshot", "region": "b", "backend": "fs", "rpo_seconds": 118.02, "docs_lost": 59, "embed_model_version": "test"}
+{"ts": 1787635057.4634926, "iso": "2026-08-25T05:17:37", "step": "3_scale_pool", "region": "b", "pool_state": "full"}
+{"ts": 1787635058.4651093, "iso": "2026-08-25T05:17:38", "step": "4_wait_ready", "region": "b", "ready": false, "waited_s": 1.0}
+{"ts": 1787635058.4651093, "iso": "2026-08-25T05:17:38", "step": "abort", "region": "b", "reason": "target_not_ready_after_wait", "waited_s": 1.0}
+{"ts": 1787635512.493078, "iso": "2026-08-25T05:25:12", "step": "1_verify_target", "region": "b", "pool_state": "warm"}
+{"ts": 1787635512.4969463, "iso": "2026-08-25T05:25:12", "step": "2_restore_snapshot", "region": "b", "backend": "fs", "rpo_seconds": 118.02, "docs_lost": 59, "embed_model_version": "test"}
+{"ts": 1787635512.4984684, "iso": "2026-08-25T05:25:12", "step": "3_scale_pool", "region": "b", "pool_state": "full"}
+{"ts": 1787635513.5011797, "iso": "2026-08-25T05:25:13", "step": "4_wait_ready", "region": "b", "ready": false, "waited_s": 1.0}
+{"ts": 1787635513.5011797, "iso": "2026-08-25T05:25:13", "step": "abort", "region": "b", "reason": "target_not_ready_after_wait", "waited_s": 1.0}
+{"ts": 1787635525.5137742, "iso": "2026-08-25T05:25:25", "step": "1_verify_target", "region": "b", "pool_state": "warm"}
+{"ts": 1787635525.517963, "iso": "2026-08-25T05:25:25", "step": "2_restore_snapshot", "region": "b", "backend": "fs", "rpo_seconds": 118.02, "docs_lost": 59, "embed_model_version": "test"}
+{"ts": 1787635525.5189724, "iso": "2026-08-25T05:25:25", "step": "3_scale_pool", "region": "b", "pool_state": "full"}
+{"ts": 1787635526.521117, "iso": "2026-08-25T05:25:26", "step": "4_wait_ready", "region": "b", "ready": false, "waited_s": 1.0}
+{"ts": 1787635526.522139, "iso": "2026-08-25T05:25:26", "step": "abort", "region": "b", "reason": "target_not_ready_after_wait", "waited_s": 1.0}
+{"ts": 1787635530.6703625, "iso": "2026-08-25T05:25:30", "step": "1_verify_target", "region": "b", "pool_state": "warm"}
+{"ts": 1787635530.6728785, "iso": "2026-08-25T05:25:30", "step": "2_restore_snapshot", "region": "b", "backend": "fs", "rpo_seconds": 118.02, "docs_lost": 59, "embed_model_version": "test"}
+{"ts": 1787635530.674878, "iso": "2026-08-25T05:25:30", "step": "3_scale_pool", "region": "b", "pool_state": "full"}
+{"ts": 1787635531.6801403, "iso": "2026-08-25T05:25:31", "step": "4_wait_ready", "region": "b", "ready": false, "waited_s": 1.0}
+{"ts": 1787635531.6807065, "iso": "2026-08-25T05:25:31", "step": "abort", "region": "b", "reason": "target_not_ready_after_wait", "waited_s": 1.0}
+{"ts": 1787635640.471846, "iso": "2026-08-25T05:27:20", "step": "1_verify_target", "region": "b", "pool_state": "warm"}
+{"ts": 1787635640.5528283, "iso": "2026-08-25T05:27:20", "step": "2_restore_snapshot", "region": "b", "backend": "fs", "rpo_seconds": 118.02, "docs_lost": 59, "embed_model_version": "test"}
+{"ts": 1787635640.5763004, "iso": "2026-08-25T05:27:20", "step": "3_scale_pool", "region": "b", "pool_state": "full"}
+{"ts": 1787635641.591031, "iso": "2026-08-25T05:27:21", "step": "4_wait_ready", "region": "b", "ready": false, "waited_s": 1.0}
+{"ts": 1787635641.6014676, "iso": "2026-08-25T05:27:21", "step": "abort", "region": "b", "reason": "target_not_ready_after_wait", "waited_s": 1.0}
+{"ts": 1787635940.5913274, "iso": "2026-08-25T05:32:20", "step": "1_verify_target", "region": "b", "pool_state": "warm"}
+{"ts": 1787635940.5933285, "iso": "2026-08-25T05:32:20", "step": "2_restore_snapshot", "region": "b", "backend": "fs", "rpo_seconds": 118.02, "docs_lost": 59, "embed_model_version": "test"}
+{"ts": 1787635940.5943286, "iso": "2026-08-25T05:32:20", "step": "3_scale_pool", "region": "b", "pool_state": "full"}
+{"ts": 1787635941.595367, "iso": "2026-08-25T05:32:21", "step": "4_wait_ready", "region": "b", "ready": false, "waited_s": 1.0}
+{"ts": 1787635941.596445, "iso": "2026-08-25T05:32:21", "step": "abort", "region": "b", "reason": "target_not_ready_after_wait", "waited_s": 1.0}
+{"ts": 1787635949.8636131, "iso": "2026-08-25T05:32:29", "step": "1_verify_target", "region": "b", "pool_state": "warm"}
+{"ts": 1787635949.9456532, "iso": "2026-08-25T05:32:29", "step": "2_restore_snapshot", "region": "b", "backend": "fs", "rpo_seconds": 118.02, "docs_lost": 59, "embed_model_version": "test"}
+{"ts": 1787635949.964424, "iso": "2026-08-25T05:32:29", "step": "3_scale_pool", "region": "b", "pool_state": "full"}
+{"ts": 1787635950.9831145, "iso": "2026-08-25T05:32:30", "step": "4_wait_ready", "region": "b", "ready": false, "waited_s": 1.0}
+{"ts": 1787635950.9885116, "iso": "2026-08-25T05:32:30", "step": "abort", "region": "b", "reason": "target_not_ready_after_wait", "waited_s": 1.0}
